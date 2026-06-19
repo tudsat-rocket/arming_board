@@ -1085,6 +1085,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SQS141ELNW-T1_GE3:SQS141ELNW-T1_GE3"
 			(pin_names
 				(offset 1.016)
@@ -2560,6 +2683,12 @@
 		(uuid "30ebd2ff-81f7-40f2-93ac-bddabcc2190b")
 	)
 	(junction
+		(at 73.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33415546-c470-4475-84a5-497fe5689ca0")
+	)
+	(junction
 		(at 68.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2576,6 +2705,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e21c7fe-5ec8-4c0e-81a6-6158536579fc")
+	)
+	(junction
+		(at 45.72 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a181e82-ce4e-464d-aa8c-e523e69fa58f")
 	)
 	(junction
 		(at 168.91 132.08)
@@ -2644,10 +2779,16 @@
 		(uuid "ca95ebfc-cd02-4f11-94e5-faf28e3e68aa")
 	)
 	(junction
-		(at 45.72 118.11)
+		(at 104.14 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf13fe7e-49d4-4f8a-a6c0-d4fa66930e25")
+		(uuid "cc570004-5ae7-41e5-acaf-c176b3e6c11c")
+	)
+	(junction
+		(at 104.14 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1fdaf7c-a43b-4e81-bfba-838a653eac42")
 	)
 	(junction
 		(at 76.2 120.65)
@@ -2789,6 +2930,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 120.65) (xy 54.61 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1307633f-3794-4d95-9977-a6fe03e103f6")
+	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19551b77-1ef0-43bb-8451-717b6c136bf0")
+	)
+	(wire
+		(pts
 			(xy 106.68 44.45) (xy 106.68 49.53)
 		)
 		(stroke
@@ -2859,6 +3020,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 120.65) (xy 31.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29093cf9-a9e1-4ff1-9c51-c6cf46528c89")
+	)
+	(wire
+		(pts
 			(xy 104.14 119.38) (xy 104.14 116.84)
 		)
 		(stroke
@@ -2886,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "2eece81c-e232-4349-ab1c-347bf5bd6a50")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f40db7-67f0-4114-93f1-f6d0df8b3cf3")
 	)
 	(wire
 		(pts
@@ -2949,6 +3130,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 52.07) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a53c8c2-5023-4fc7-8276-0ea30a83c176")
+	)
+	(wire
+		(pts
 			(xy 58.42 118.11) (xy 45.72 118.11)
 		)
 		(stroke
@@ -2989,16 +3180,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 31.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5922990c-0545-4df6-9815-fb92ef38468e")
-	)
-	(wire
-		(pts
 			(xy 73.66 69.85) (xy 73.66 72.39)
 		)
 		(stroke
@@ -3019,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 120.65) (xy 34.29 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6572b6c8-c1be-4539-bd44-3619ff5e4ed8")
-	)
-	(wire
-		(pts
 			(xy 68.58 59.69) (xy 68.58 52.07)
 		)
 		(stroke
@@ -3046,6 +3217,16 @@
 			(type default)
 		)
 		(uuid "6e09e769-1d28-4fc2-ae0d-af3e81d91225")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7495eb75-6a95-4081-a482-9776a92c0364")
 	)
 	(wire
 		(pts
@@ -3169,13 +3350,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 120.65) (xy 34.29 120.65)
+			(xy 45.72 118.11) (xy 34.29 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a259348e-1ab5-4f64-9ad9-295af177a46b")
+		(uuid "a193bbd7-87d6-4128-add7-ac1b22493c4e")
 	)
 	(wire
 		(pts
@@ -3289,13 +3470,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 118.11) (xy 31.75 127)
+			(xy 104.14 59.69) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8726e9a-eabb-4707-8b96-5589f43b24b1")
+		(uuid "c9160bf8-9802-4366-8967-77e923091502")
 	)
 	(wire
 		(pts
@@ -5038,7 +5219,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 74.295 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5576,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 64.008 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6230,14 +6411,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 116.84 111.76 0)
+		(property "Value" "VCC"
+			(at 119.38 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6280,6 +6462,85 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be1e2be-0f51-4cb5-9648-6e890c12f09b")
+		(property "Reference" "H4"
+			(at 213.36 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 213.36 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 210.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7a56319-73fb-4099-b760-4373c1f335cf")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6464,7 +6725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "80k"
 			(at 66.04 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,6 +6789,85 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 184.15 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "715b4c77-996a-40e6-9714-b993b150a867")
+		(property "Reference" "H1"
+			(at 186.69 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 186.69 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7a1613f-4e05-4895-93c1-33a2e69d26bd")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6866,7 +7206,7 @@
 		(fields_autoplaced yes)
 		(uuid "8746c579-4b37-4d75-8220-4dd0a072792c")
 		(property "Reference" "C2"
-			(at 80.01 128.2699 0)
+			(at 80.01 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6876,8 +7216,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 80.01 130.8099 0)
+		(property "Value" "10u"
+			(at 80.01 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6921,13 +7261,14 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 76.2 129.54 0)
+			(at 80.01 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7039,6 +7380,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d16fef-020a-4936-af8e-5e48291c99c8")
+		(property "Reference" "#PWR019"
+			(at 209.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7d52c94-8e20-463a-9b2c-295c950b0512")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 76.2 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -7110,6 +7529,85 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95573e11-a9f3-43fd-84bb-40c0926c4793")
+		(property "Reference" "#PWR010"
+			(at 110.49 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9994ed6a-20df-4200-a9e6-48197699c97e")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7303,6 +7801,84 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb16d60-9af5-400f-965b-f03bf6c32a38")
+		(property "Reference" "#PWR017"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adedaf4c-280d-432e-8576-48c9331fc1e8")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7557,6 +8133,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e28613-0640-4906-97fc-50a3d4fecc09")
+		(property "Reference" "#PWR020"
+			(at 210.82 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d8e9d78-88ab-47be-b3d7-58433c31edf7")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 135.89 53.34 0)
 		(unit 1)
@@ -7579,14 +8233,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 135.89 48.26 0)
+		(property "Value" "VCC"
+			(at 138.43 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7804,6 +8459,243 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 184.15 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab70964a-4a2d-4120-a594-ca0c36b52f78")
+		(property "Reference" "H2"
+			(at 186.69 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 186.69 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 184.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 184.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2224d14c-b680-427c-9b9b-11c2e4a8bd6b")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb65e2b-b6ee-46b7-b924-8c2d4e2a486b")
+		(property "Reference" "#PWR05"
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e6e2b8f-f9ef-414a-bc44-295cfb1e0d29")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5252523-b3fc-4fd4-93fb-71b10ecb859e")
+		(property "Reference" "#PWR07"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f282e98f-ac76-4082-a1d4-419930683fea")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8080,14 +8972,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 184.15 111.76 0)
+		(property "Value" "VCC"
+			(at 186.69 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8328,7 +9221,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "80k"
 			(at 57.15 70.485 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8555,6 +9448,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 209.55 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf3ed95-ff19-43aa-a18b-728008015129")
+		(property "Reference" "H3"
+			(at 212.09 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 212.09 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85a90969-a45e-453a-9cf5-2c44d52379b5")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 73.66 0)
 		(unit 1)
@@ -8645,7 +9617,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1f0dd61-fceb-4176-a4f5-ace979dbcde7")
 		(property "Reference" "C1"
-			(at 69.85 128.2699 0)
+			(at 69.85 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8655,8 +9627,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 69.85 130.8099 0)
+		(property "Value" "10u"
+			(at 69.85 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8700,13 +9672,14 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 66.04 129.54 0)
+			(at 69.85 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8719,6 +9692,84 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e221deb9-6f25-4539-bf30-4fb9933a5da8")
+		(property "Reference" "#PWR018"
+			(at 184.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2bc7b6d-3fd4-46e9-940d-6bb4c43798db")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

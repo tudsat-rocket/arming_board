@@ -65,8 +65,8 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.4,
+          "thermal_relief_spoke_width": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -217,7 +217,8 @@
       "track_widths": [
         0.0,
         0.3,
-        5.0
+        5.0,
+        30.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -693,7 +694,7 @@
         "uuid": "a8577761-41ea-4572-892c-e689011487d6"
       }
     ],
-    "used_designators": "J3",
+    "used_designators": "H1-4,#PWR17-20",
     "variants": []
   },
   "sheets": [
