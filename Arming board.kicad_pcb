@@ -748,36 +748,10 @@
 		(path "/53d5345d-157e-48b3-a08f-fa90bfe3769b")
 		(sheetname "/")
 		(sheetfile "Arming board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 5.685 -9.03)
-			(end 6.685 -8.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee849692-b878-440d-ae4b-a4e831754d56")
-		)
-		(fp_line
-			(start -2.685 -9.03)
-			(end 5.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "531f1973-df06-47c9-a9cb-5d0c9666d959")
-		)
-		(fp_line
-			(start 6.685 -8.03)
+			(start 6.685 -7.5)
 			(end 6.685 1.1)
 			(stroke
 				(width 0.12)
@@ -785,16 +759,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "415012cd-026e-4ae5-b792-b4825a48dbf5")
-		)
-		(fp_line
-			(start -3.685 -8.03)
-			(end -2.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b5da4a10-2d6b-4645-87d8-e9603e019ac7")
 		)
 		(fp_line
 			(start 6.685 1.1)
@@ -808,7 +772,7 @@
 		)
 		(fp_line
 			(start -3.685 1.1)
-			(end -3.685 -8.03)
+			(end -3.685 -7.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2036,17 +2000,11 @@
 		(path "/113e743a-8160-4fbf-bd11-42087b20daee")
 		(sheetname "/")
 		(sheetfile "Arming board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.685 1.1)
-			(end -3.685 -8.03)
+			(end -3.685 -7.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2065,17 +2023,7 @@
 			(uuid "272ef11d-7ac6-4fd9-b4bd-6bbe864e50d1")
 		)
 		(fp_line
-			(start -3.685 -8.03)
-			(end -2.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "373e87e0-5fb5-4c3c-b4c8-19bfee387f35")
-		)
-		(fp_line
-			(start 6.685 -8.03)
+			(start 6.685 -7.5)
 			(end 6.685 1.1)
 			(stroke
 				(width 0.12)
@@ -2083,26 +2031,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "0c6137ab-d809-4328-9c35-c607846d6cb2")
-		)
-		(fp_line
-			(start -2.685 -9.03)
-			(end 5.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a00e2cb-ef43-4a61-a791-6010b3554020")
-		)
-		(fp_line
-			(start 5.685 -9.03)
-			(end 6.685 -8.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e13bbbcf-c8ab-4522-bb74-aaf16f9ffcbc")
 		)
 		(fp_line
 			(start -1.25 4.25)
@@ -4565,17 +4493,11 @@
 		(path "/a85b85ab-3edc-40e1-be88-74ac488f6eb2")
 		(sheetname "/")
 		(sheetfile "Arming board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3.685 1.1)
-			(end -3.685 -8.03)
+			(start -3.685 1.63)
+			(end -3.685 -7.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4594,17 +4516,7 @@
 			(uuid "92a59f46-c330-46b9-9728-932bad5c9870")
 		)
 		(fp_line
-			(start -3.685 -8.03)
-			(end -2.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "57d1a090-2ea2-4195-aaf0-40d06d6786ec")
-		)
-		(fp_line
-			(start 6.685 -8.03)
+			(start 6.685 -7.5)
 			(end 6.685 1.1)
 			(stroke
 				(width 0.12)
@@ -4612,26 +4524,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "89b790a4-e396-4d20-a2a6-2083f4197bff")
-		)
-		(fp_line
-			(start -2.685 -9.03)
-			(end 5.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "35c52736-d0d8-4759-9a55-930d2b8be9be")
-		)
-		(fp_line
-			(start 5.685 -9.03)
-			(end 6.685 -8.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e2c2af93-2225-4ed7-a191-46d003b4ee81")
 		)
 		(fp_line
 			(start -1.25 4.25)
@@ -5212,36 +5104,10 @@
 		(path "/19075179-5759-4007-bab9-13bfea296de3")
 		(sheetname "/")
 		(sheetfile "Arming board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 5.685 -9.03)
-			(end 6.685 -8.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61cd87fc-ce49-42f8-957d-c4370dcd75e4")
-		)
-		(fp_line
-			(start -2.685 -9.03)
-			(end 5.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9a45dbc-3d26-4d35-9cc5-574065f3a062")
-		)
-		(fp_line
-			(start 6.685 -8.03)
+			(start 6.685 -7.5)
 			(end 6.685 1.1)
 			(stroke
 				(width 0.12)
@@ -5249,16 +5115,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "27aac426-ede6-46d8-8a5e-0517aa3d6824")
-		)
-		(fp_line
-			(start -3.685 -8.03)
-			(end -2.685 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef48bb28-7b22-460f-91c3-bec14a54f1d8")
 		)
 		(fp_line
 			(start 6.685 1.1)
@@ -5272,7 +5128,7 @@
 		)
 		(fp_line
 			(start -3.685 1.1)
-			(end -3.685 -8.03)
+			(end -3.685 -7.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5441,7 +5297,7 @@
 			(uuid "405462b9-ab13-4204-82fb-c1bba1f217ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.5 -8.22 90)
+			(at 0 -11.5 90)
 			(layer "F.Fab")
 			(uuid "93a8b66e-6d39-456f-84dc-2fa65acd4037")
 			(effects
@@ -6255,12 +6111,6 @@
 		(path "/76181970-fc39-4f74-8105-83c42b5688b9")
 		(sheetname "/")
 		(sheetfile "Arming board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6274,7 +6124,7 @@
 			(uuid "bc306d90-a739-4de4-85e6-f7c8352281c0")
 		)
 		(fp_line
-			(start 12.435 -8.03)
+			(start 12.435 -7.5)
 			(end 12.435 1.09)
 			(stroke
 				(width 0.12)
@@ -6282,16 +6132,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d91b0985-1c3c-4299-8a79-bc833c142bf0")
-		)
-		(fp_line
-			(start 11.435 -9.03)
-			(end 12.435 -8.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2fc1b91d-cb8c-4363-b2c4-f096b4c35b13")
 		)
 		(fp_line
 			(start 6.651767 1.09)
@@ -6324,16 +6164,6 @@
 			(uuid "fe9baeb8-e326-4537-8e2e-3fca9baca839")
 		)
 		(fp_line
-			(start -2.435 -9.03)
-			(end 11.435 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f27722d-59b0-4214-b0d0-19f472e0bfe3")
-		)
-		(fp_line
 			(start -3.435 1.09)
 			(end -1.01 1.09)
 			(stroke
@@ -6345,23 +6175,13 @@
 		)
 		(fp_line
 			(start -3.435 1.09)
-			(end -3.435 -8.03)
+			(end -3.435 -7.5)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "ed32cb68-2198-49ca-9b0a-1f835daee6d5")
-		)
-		(fp_line
-			(start -3.435 -8.03)
-			(end -2.435 -9.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4861500e-a30b-4fdc-bcb5-c6877792c9d1")
 		)
 		(fp_line
 			(start 12.83 1.49)
