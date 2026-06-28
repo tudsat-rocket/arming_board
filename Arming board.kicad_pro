@@ -217,6 +217,7 @@
       "track_widths": [
         0.0,
         0.3,
+        0.5,
         5.0,
         30.0
       ],
@@ -694,7 +695,7 @@
         "uuid": "a8577761-41ea-4572-892c-e689011487d6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC2",
     "variants": []
   },
   "sheets": [
