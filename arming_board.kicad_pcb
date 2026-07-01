@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Arming Board")
+		(date "2026-07-01")
+		(rev "1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" power)
@@ -1010,15 +1015,15 @@
 			(uuid "3ded582b-2a7e-4239-a4e5-6753d912102d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3d_models/66200421024_STP (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2.8 2.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2279,15 +2284,15 @@
 			(uuid "02039b6c-9edf-417f-880f-aa68d8510696")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/66200421024_STP (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2.8 2.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4791,15 +4796,15 @@
 			(uuid "a9e9eed3-3c1b-4cb7-8266-4610984699d9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3d_models/66200421024_STP (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2.8 2.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5408,15 +5413,15 @@
 			(uuid "4373a71f-ef27-4e9b-a758-9e69852d4394")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/66200421024_STP (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 2.8 2.7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6428,15 +6433,15 @@
 			(uuid "3afe318a-cd13-486a-aa69-c9bceb9db088")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3d_models/66200411024_STP (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 4 2.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)

@@ -266,7 +266,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -515,7 +515,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arming board.kicad_pro",
+    "filename": "arming_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -676,7 +676,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "arming_board",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -690,8 +690,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Arming board.kicad_sch",
-        "name": "Arming board",
+        "filename": "arming_board.kicad_sch",
+        "name": "arming_board",
         "uuid": "a8577761-41ea-4572-892c-e689011487d6"
       }
     ],
