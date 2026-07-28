@@ -5115,6 +5115,7 @@
 	(symbol
 		(lib_id "Transistor_FET:SQJ409EP")
 		(at 135.89 67.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5124,7 +5125,7 @@
 		(dnp no)
 		(uuid "0d1ca60f-dfda-40a8-bf03-c2a7b56eece3")
 		(property "Reference" "Q2"
-			(at 139.954 64.77 0)
+			(at 139.954 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5146,7 +5147,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
-			(at 140.97 74.93 0)
+			(at 140.97 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/77707/sqj409ep.pdf"
-			(at 140.97 72.39 0)
+			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5171,7 +5172,7 @@
 			)
 		)
 		(property "Description" "-60A Id, -40V Vds, 7 mOhm Ron, PowerPAK SO-8L"
-			(at 140.97 69.85 0)
+			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5184,7 @@
 			)
 		)
 		(property "LCSC" "C727776"
-			(at 143.256 70.612 0)
+			(at 143.256 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5208,7 +5209,7 @@
 			(uuid "a7e00e86-498a-4cac-bf16-3560a22f4520")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "Q2")
 					(unit 1)
@@ -5305,7 +5306,7 @@
 			(uuid "6e94eee7-345a-4a32-b267-d68ce9ca807b")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "J2")
 					(unit 1)
@@ -5383,7 +5384,7 @@
 			(uuid "46e65162-95b7-45dd-afff-aeaa819d57b1")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "TP2")
 					(unit 1)
@@ -5475,7 +5476,7 @@
 			(uuid "bfd141ce-a84c-4688-ac88-ff1df086d567")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R4")
 					(unit 1)
@@ -5553,7 +5554,7 @@
 			(uuid "3884e45e-ac3c-4c09-8ea5-d8e1694d1b24")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR09")
 					(unit 1)
@@ -5650,7 +5651,7 @@
 			(uuid "6fba2d1c-2c31-4b98-a63d-02275f425968")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "J1")
 					(unit 1)
@@ -5740,7 +5741,7 @@
 			(uuid "643a3c56-d048-4636-b195-391dbb9ed3ff")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D19")
 					(unit 1)
@@ -5832,7 +5833,7 @@
 			(uuid "d1359295-1fa6-48c5-888a-2643e0a183c2")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R3")
 					(unit 1)
@@ -5922,7 +5923,7 @@
 			(uuid "a24d939e-582b-4e31-b035-be56c2f4ea9a")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D18")
 					(unit 1)
@@ -6014,7 +6015,7 @@
 			(uuid "87054697-f0fa-42e0-bc22-f3c1a1b85301")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R5")
 					(unit 1)
@@ -6092,7 +6093,7 @@
 			(uuid "394232e9-eb36-4ee5-812b-9bf21f1350a5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR03")
 					(unit 1)
@@ -6170,7 +6171,7 @@
 			(uuid "4a76fc94-a6c6-4dae-9ba3-5c9357ac46d8")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR02")
 					(unit 1)
@@ -6262,7 +6263,7 @@
 			(uuid "83cca770-2080-460c-86bd-8329642855ea")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D3")
 					(unit 1)
@@ -6340,7 +6341,7 @@
 			(uuid "e60ceb37-140e-4398-99af-cfbc8ecfbb99")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR028")
 					(unit 1)
@@ -6437,7 +6438,7 @@
 			(uuid "cea9e18b-26fc-4ba9-aa26-4f7fd10b34a1")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "J4")
 					(unit 1)
@@ -6516,7 +6517,7 @@
 			(uuid "0d0a7739-cf04-41b1-8b83-d1f0f7ea619c")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR026")
 					(unit 1)
@@ -6595,7 +6596,7 @@
 			(uuid "e7a56319-73fb-4099-b760-4373c1f335cf")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "H4")
 					(unit 1)
@@ -6673,7 +6674,7 @@
 			(uuid "2935e1ba-9139-4823-86c3-e655a2418468")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "TP4")
 					(unit 1)
@@ -6751,7 +6752,7 @@
 			(uuid "4cd122dd-1809-46be-8a0c-a5ed681444cd")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR04")
 					(unit 1)
@@ -6829,7 +6830,7 @@
 			(uuid "88872823-be13-4e9f-b9a9-c967f5b0def5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR08")
 					(unit 1)
@@ -6921,7 +6922,7 @@
 			(uuid "4488a37c-7bc8-459b-a3dc-8feb75f529cc")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R7")
 					(unit 1)
@@ -7000,7 +7001,7 @@
 			(uuid "c7a1613f-4e05-4895-93c1-33a2e69d26bd")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "H1")
 					(unit 1)
@@ -7078,7 +7079,7 @@
 			(uuid "621aa66d-9282-411b-91f2-a306a94f1846")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR012")
 					(unit 1)
@@ -7156,7 +7157,7 @@
 			(uuid "11e6dd93-95b1-463c-a9ad-5b281e3698ec")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR06")
 					(unit 1)
@@ -7234,7 +7235,7 @@
 			(uuid "26bf2594-40d7-44b7-95f9-7e896acf78d5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR032")
 					(unit 1)
@@ -7320,7 +7321,7 @@
 			(uuid "e68150ad-13e4-44fc-bad4-937b685b2dcc")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "J3")
 					(unit 1)
@@ -7398,7 +7399,7 @@
 			(uuid "c56c7c58-1a01-4872-9eb9-74478f32f8cc")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "TP5")
 					(unit 1)
@@ -7490,7 +7491,7 @@
 			(uuid "a7e90764-8590-4c15-9239-3ba180ec380d")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "C2")
 					(unit 1)
@@ -7582,7 +7583,7 @@
 			(uuid "e2ef7f72-31e1-4d1f-8290-d533e95cbbad")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D1")
 					(unit 1)
@@ -7660,7 +7661,7 @@
 			(uuid "a7d52c94-8e20-463a-9b2c-295c950b0512")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR019")
 					(unit 1)
@@ -7738,7 +7739,7 @@
 			(uuid "3053cf7f-c81a-4e66-9e3b-162860c38f41")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "TP1")
 					(unit 1)
@@ -7816,7 +7817,7 @@
 			(uuid "056e49b7-78d4-4fc6-a871-ad37932f6ab4")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR015")
 					(unit 1)
@@ -7895,7 +7896,7 @@
 			(uuid "9994ed6a-20df-4200-a9e6-48197699c97e")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR010")
 					(unit 1)
@@ -8088,7 +8089,7 @@
 			(uuid "56f76937-6e58-47d2-bb04-4c0fd7481bbc")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "IC1")
 					(unit 1)
@@ -8166,7 +8167,7 @@
 			(uuid "0be6a0de-3bc0-4868-af33-40cb63fa9e15")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR023")
 					(unit 1)
@@ -8244,7 +8245,7 @@
 			(uuid "29185128-a7c6-4ecc-95da-0d7e93c5f91e")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR025")
 					(unit 1)
@@ -8336,7 +8337,7 @@
 			(uuid "f362a005-65d1-4df1-a9b8-5084cf2a7690")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D5")
 					(unit 1)
@@ -8414,7 +8415,7 @@
 			(uuid "5d8e9d78-88ab-47be-b3d7-58433c31edf7")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR020")
 					(unit 1)
@@ -8493,7 +8494,7 @@
 			(uuid "b804a59a-1669-495a-865e-7e8cfe61f43b")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR011")
 					(unit 1)
@@ -8590,7 +8591,7 @@
 			(uuid "015870bf-f24a-41d1-85c4-5df24f100a0d")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "J5")
 					(unit 1)
@@ -8668,7 +8669,7 @@
 			(uuid "9d318b2a-aa49-4d61-8fd2-fdb4eb95bc79")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "TP3")
 					(unit 1)
@@ -8746,7 +8747,7 @@
 			(uuid "01c912b7-0bf7-4e6e-94f8-953272224809")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR016")
 					(unit 1)
@@ -8825,7 +8826,7 @@
 			(uuid "2224d14c-b680-427c-9b9b-11c2e4a8bd6b")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "H2")
 					(unit 1)
@@ -8903,7 +8904,7 @@
 			(uuid "0e6e2b8f-f9ef-414a-bc44-295cfb1e0d29")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR05")
 					(unit 1)
@@ -8982,7 +8983,7 @@
 			(uuid "f282e98f-ac76-4082-a1d4-419930683fea")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR07")
 					(unit 1)
@@ -9060,7 +9061,7 @@
 			(uuid "8e463bd1-6ded-49b0-a87e-6e724e3aa435")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR031")
 					(unit 1)
@@ -9152,7 +9153,7 @@
 			(uuid "5c837f94-8934-4f16-bf9a-dc303bdd6224")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R1")
 					(unit 1)
@@ -9230,7 +9231,7 @@
 			(uuid "5ffb5cd2-474f-4570-8c67-c347dd9f3a52")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR029")
 					(unit 1)
@@ -9309,7 +9310,7 @@
 			(uuid "737c3d76-4ba3-4ee7-8d91-60c3cfc881b5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR030")
 					(unit 1)
@@ -9401,7 +9402,7 @@
 			(uuid "0bbed4fe-3d4e-40f6-b51d-d113c09e4675")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "D6")
 					(unit 1)
@@ -9479,7 +9480,7 @@
 			(uuid "6afdbfcd-c9dc-433a-9ce8-4104cc517ea4")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR024")
 					(unit 1)
@@ -9571,7 +9572,7 @@
 			(uuid "3fea563e-192d-4a47-bbb1-b4f73b525ac4")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R6")
 					(unit 1)
@@ -9650,7 +9651,7 @@
 			(uuid "831b0211-f075-4134-995a-4dddfeb56108")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#FLG01")
 					(unit 1)
@@ -9728,7 +9729,7 @@
 			(uuid "381a2cc4-315d-40f5-ae15-272f19ebd2eb")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR014")
 					(unit 1)
@@ -9807,7 +9808,7 @@
 			(uuid "85a90969-a45e-453a-9cf5-2c44d52379b5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "H3")
 					(unit 1)
@@ -9885,7 +9886,7 @@
 			(uuid "4b9aaa1c-9c55-4f35-afab-cbec1d00769f")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR01")
 					(unit 1)
@@ -9977,7 +9978,7 @@
 			(uuid "5ed21689-d918-4107-a799-44e42d6b7c22")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "C1")
 					(unit 1)
@@ -10055,7 +10056,7 @@
 			(uuid "f2bc7b6d-3fd4-46e9-940d-6bb4c43798db")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR018")
 					(unit 1)
@@ -10133,7 +10134,7 @@
 			(uuid "91b4a4c8-8541-4173-9f28-f58fb2938a8b")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR033")
 					(unit 1)
@@ -10222,7 +10223,7 @@
 			(uuid "2097b214-7041-4f12-b864-9f7de138d6c6")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "R2")
 					(unit 1)
@@ -10300,7 +10301,7 @@
 			(uuid "028b1f20-5cc9-47f6-8289-5f14f3df1cc5")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR027")
 					(unit 1)
@@ -10378,7 +10379,7 @@
 			(uuid "a568b700-e362-4e6a-b9d2-60df5df75317")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR013")
 					(unit 1)
@@ -10456,7 +10457,7 @@
 			(uuid "c5deeb15-126b-4b32-ae3d-99c6c8dba876")
 		)
 		(instances
-			(project "Arming board"
+			(project "arming_board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR021")
 					(unit 1)
